@@ -5,11 +5,11 @@ int main()
         int num;
         cout << "Enter * count lines to make: ";
         cin >> num;
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i <num ; i++)
         {
                 if (num > 0)
                 {
-                        for (int j = i; j < 5; j++)
+                        for (int j = i; j < num; j++)
                         {
                                 cout << "* ";
                         }
